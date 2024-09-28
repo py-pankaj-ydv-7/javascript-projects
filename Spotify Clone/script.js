@@ -1,6 +1,6 @@
 console.log("welcome to spotify");
 
-//Initialize the variables
+
 let songsongIndex =0;
 let audioElement = new Audio('./songs/1.mp3');
 let masterPlay = document.getElementById('masterPlay');
@@ -23,7 +23,7 @@ let songs =[
 ]
 
 songItems.forEach((element, i)=>{
-    // console.log(element,i);
+  
     element.getElementsByTagName("img")[0].src = songs[i].coverPath;
     element.getElementsByClassName("songName")[0].innerText = songs[i].songName;
 })
@@ -31,9 +31,7 @@ songItems.forEach((element, i)=>{
 
 
 
-// audioElement.play();
 
-// Handle play/pause click
 masterPlay.addEventListener('click', ()=>{
     if(audioElement.paused || audioElement.currentTime<=0){
         audioElement.play();
@@ -49,11 +47,11 @@ masterPlay.addEventListener('click', ()=>{
     }
     
 })
-//Listen to Events
+
 audioElement.addEventListener('timeupdate', ()=>{
     console.log('timeupdate');
 
-    //update Seekbar
+   
 
     progress = parseInt((audioElement.currentTime/audioElement.duration)* 100);
     console.log(progress);
@@ -88,7 +86,6 @@ Array.from(document.getElementsByClassName('songItemPlay')).forEach((element)=>{
         masterPlay.classList.remove('fa-play-circle');
         masterPlay.classList.add('fa-pause-circle');
         
-        // console.log(e.target)
 
     })
 })
