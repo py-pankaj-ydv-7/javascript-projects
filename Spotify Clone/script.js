@@ -10,16 +10,16 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems= Array.from(document.getElementsByClassName('songItem'));
 
 let songs =[
-    {songName: "Salam-e-Ishq", filePath: "./songs/1.mp3", coverPath: "./covers/1.jpg"},
-    {songName: "hello brother", filePath: "./songs/2.mp3", coverPath: "./covers/2.jpg"},
-    {songName: "kabhi isq ladaye", filePath: "./songs/3.mp3", coverPath: "./covers/3.jpg"},
-    {songName: "Dildara", filePath: "./songs/4.mp3", coverPath: "./covers/4.jpg"},
-    {songName: "mahi mahi", filePath: "./songs/5.mp3", coverPath: "./covers/5.jpg"},
-    {songName: "tune sone di chabi", filePath: "./songs/6.mp3", coverPath: "./covers/6.jpg"},
-    {songName: "forget me", filePath: "./songs/7.mp3", coverPath: "./covers/7.jpg"},
-    {songName: "moon rise", filePath: "./songs/8.mp3", coverPath: "./covers/8.jpg"},
-    {songName: "oo kyu nahi jaan sake", filePath: "./songs/9.mp3", coverPath: "./covers/9.jpg"},
-    {songName: "na ja na ja", filePath: "./songs/10.mp3", coverPath:"./covers/10.jpg"},
+    {songName: "Patola Guru Randhawa", filePath: "./songs/1.mp3", coverPath: "./covers/1.jpg"},
+    {songName: "Guru Randhawa: Lahore ", filePath: "./songs/2.mp3", coverPath: "./covers/2.jpg"},
+    {songName: "guru-randhawa-made-in-india", filePath: "./songs/3.mp3", coverPath: "./covers/3.jpg"},
+    {songName: "ed-sheeran-perfect", filePath: "./songs/4.mp3", coverPath: "./covers/4.jpg"},
+    {songName: "viah-jass-manak", filePath: "./songs/5.mp3", coverPath: "./covers/5.jpg"},
+    {songName: "Suit Guru Randhawa", filePath: "./songs/6.mp3", coverPath: "./covers/6.jpg"},
+    {songName: "VAIL Mankirt Aulakh", filePath: "./songs/7.mp3", coverPath: "./covers/7.jpg"},
+    {songName: "Bhabi Mankirt Aulakh", filePath: "./songs/8.mp3", coverPath: "./covers/8.jpg"},
+    {songName: "Meri mummy nu pasand nhio tu", filePath: "./songs/9.mp3", coverPath: "./covers/9.jpg"},
+    {songName: "Miss Pooja - Date on Ford", filePath: "./songs/10.mp3", coverPath:"./covers/10.jpg"},
 ]
 
 songItems.forEach((element, i)=>{
