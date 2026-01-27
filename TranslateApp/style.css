@@ -128,4 +128,24 @@ body{
     font-size: 18px;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
+}
+
+.speaker{
+    /* width: 25px; */
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.speaker:hover{
+    transform: scale(130%);
+}
+.copy{
+    /* width: 25px; */
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.copy:hover{
+    transform: scale(130%);
 }
