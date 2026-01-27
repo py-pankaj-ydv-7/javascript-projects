@@ -1,4 +1,7 @@
 const selectTag = document.querySelectorAll("select");
+const translateBtn = document.querySelector("#Transfer");
+const fromText = document.querySelector("#fromText");
+
 console.log(selectTag);
 
 selectTag.forEach((tag,id)=>{
